@@ -1,0 +1,15 @@
+.home .banner {
+    position: relative;
+    text-align: center;
+}
+
+.offer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    width: 100%;
+}
