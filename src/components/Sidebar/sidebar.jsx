@@ -14,8 +14,12 @@ function Sidebar() {
             <li>Baby's & Toys</li>
             <li>Groceries & Pets</li>
             <li>Helath & Beauty</li>
+             
         </ul>
+        
     </aside>
+    
+    
   );
 }
 

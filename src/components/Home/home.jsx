@@ -8,8 +8,8 @@ function Home() {
                 <div className="offer">
                     <h>Summer Sale For All Swim Suits And Express Delivery-OFF 50%! <button>ShopNow</button></h>
                 </div>
-            </div>
-        </div>
+            </div>           
+        </div>  
     );
 }
 

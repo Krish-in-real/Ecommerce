@@ -7,3 +7,9 @@
   padding: 1rem 0;
   background-color: white;
 }
+.non-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}

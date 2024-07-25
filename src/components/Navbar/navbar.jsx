@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.css'
+import { IoIosSearch } from "react-icons/io";
 
 function Navbar() {
   return (
@@ -15,6 +16,9 @@ function Navbar() {
     </div>
     <div className="search-container">
       <input type="text" placeholder="what are you looking for?" />
+      <div className="search">
+         <IoIosSearch className="icon" />
+      </div>
     </div>
   </nav>
   );

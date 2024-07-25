@@ -1,0 +1,35 @@
+.e-card {
+    /* border: 1px solid rgb(196, 196, 218) ; */
+    /* width: 20%;
+    height: 20%; */
+    /* background-color: rgb(246, 242, 242); */
+}
+
+.card .img {
+    width: 50%;
+    height: 50%;
+}
+
+.abs {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-size: 12.5px;
+}
+
+.add-to-cart {
+    height: 7vh;
+    
+}
+
+.mainContainer {
+    width: 100%;
+    min-height: 100vh;
+    /* background: rgba(242, 242, 242, 255); */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: center;
+    padding-top: 0 1rem;
+}
