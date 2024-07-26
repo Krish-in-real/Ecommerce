@@ -2,3 +2,20 @@
     padding: 4rem;
     margin: 1rem;
 }
+
+h3 {
+    color: #DB4444;
+}
+
+.abd {
+    background-color: #DB4444;
+    width: 17px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.today {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

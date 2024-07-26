@@ -19,4 +19,5 @@
   max-width: max-content;
   justify-content: space-between;
   overflow-x: auto;
+  margin-top: -65px;
 }

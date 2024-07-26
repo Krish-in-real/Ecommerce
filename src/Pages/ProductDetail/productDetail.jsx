@@ -5,10 +5,12 @@ import Navbar from '../../components/Navbar/navbar'
 
 function ProductDetail() {
   return (
-    <div><div className="main-content">
-    <Home />
-    <Navbar />
-  </div></div>
+    <div>
+      <div className="main-content">
+       <Home />
+       <Navbar />
+     </div>
+  </div>
   )
 }
 

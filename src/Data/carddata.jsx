@@ -24,18 +24,20 @@ const Data = [
       {
         id: 3, 
         imgSrc: imag5,
-        title: 'IPS LCD ', 
-        price: 960, 
-        discount: 35,
+        title: 'IPS LCD Gaming Monitor ', 
+        price: 370, 
+        discount: 30,
       },
 
       {
         id: 4, 
         imgSrc: imag6,
-        title: 'AK-900 Wired Keyboard', 
-        price: 960, 
-        discount: 35,
-      },{
+        title: 'S-Series Comfort Chair', 
+        price: 375, 
+        discount: 25,
+      },
+
+      {
         id: 1, 
         imgSrc: imag3,
         title: "HAVIT HV-G92 Gamepad", 
@@ -54,18 +56,20 @@ const Data = [
       {
         id: 3, 
         imgSrc: imag5,
-        title: 'IPS LCD ', 
-        price: 960, 
-        discount: 35,
+        title: 'IPS LCD Gaming Monitor ', 
+        price: 370, 
+        discount: 30,
       },
 
       {
         id: 4, 
         imgSrc: imag6,
-        title: 'AK-900 Wired Keyboard', 
-        price: 960, 
-        discount: 35,
-      },{
+        title: 'S-Series Comfort Chair', 
+        price: 375, 
+        discount: 25,
+      },
+
+      {
         id: 1, 
         imgSrc: imag3,
         title: "HAVIT HV-G92 Gamepad", 
@@ -84,18 +88,20 @@ const Data = [
       {
         id: 3, 
         imgSrc: imag5,
-        title: 'IPS LCD ', 
-        price: 960, 
-        discount: 35,
+        title: 'IPS LCD Gaming Monitor ', 
+        price: 370, 
+        discount: 30,
       },
 
       {
         id: 4, 
         imgSrc: imag6,
-        title: 'AK-900 Wired Keyboard', 
-        price: 960, 
-        discount: 35,
-      },{
+        title: 'S-Series Comfort Chair', 
+        price: 375, 
+        discount: 25,
+      },
+
+      {
         id: 1, 
         imgSrc: imag3,
         title: "HAVIT HV-G92 Gamepad", 
@@ -114,17 +120,17 @@ const Data = [
       {
         id: 3, 
         imgSrc: imag5,
-        title: 'IPS LCD ', 
-        price: 960, 
-        discount: 35,
+        title: 'IPS LCD Gaming Monitor ', 
+        price: 370, 
+        discount: 30,
       },
 
       {
         id: 4, 
         imgSrc: imag6,
-        title: 'AK-900 Wired Keyboard', 
-        price: 960, 
-        discount: 35,
+        title: 'S-Series Comfort Chair', 
+        price: 375, 
+        discount: 25,
       },
 ]
 export default Data;
