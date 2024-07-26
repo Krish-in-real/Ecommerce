@@ -6,7 +6,7 @@ import Sidebar from '../../components/Sidebar/sidebar';
 import Main from '../../components/Main/main';
 import Product from '../../components/Product/product';
 import Card from '../../components/Card/card';
-
+import Data from '../../Data/carddata';
 
 function HomePage() {
   return (
@@ -23,8 +23,17 @@ function HomePage() {
         <Product />
       </div>
       <div className="card">
-      <Card />
-      <Card />
+      {
+        Data.map( ({id, imgSrc, title, price, discount})=>{
+          return (<Card
+            id = {id}
+            imgSrc={imgSrc}
+            title={title}
+            price={price}
+            discount={discount}
+          />)
+        }
+      )}
       </div>
     </div>
   );
