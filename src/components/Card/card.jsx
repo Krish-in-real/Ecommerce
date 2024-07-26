@@ -29,7 +29,7 @@ const Data = [
       {
         id: 3, 
         imgSrc: imag5,
-        title: 'AK-900 Wired Keyboard', 
+        title: 'IPS LCD ', 
         price: 960, 
         discount: 35,
       },
@@ -49,10 +49,9 @@ function Card() {
       {
         Data.map( ({id,imgSrc,title,price,discount}) =>{
           return (
-            <div key={id} className="box">
-            <div className="e-card">
+            <div key={id} className="e-card">
               <div className="image">
-                <img src={imgSrc} alt="" />
+                <img className="card-image" src={imgSrc} alt="" />
               </div>
               <div className="desc">
                 <h4>{title}</h4>
@@ -66,7 +65,6 @@ function Card() {
                  <AiOutlineStar className="icon" />
               </div>
             </div>
-          </div>
           )
         })
       }

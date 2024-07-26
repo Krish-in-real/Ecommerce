@@ -1,13 +1,15 @@
 .e-card {
-    /* border: 1px solid rgb(196, 196, 218) ; */
-    /* width: 20%;
-    height: 20%; */
-    /* background-color: rgb(246, 242, 242); */
+    border: 1px solid rgb(196, 196, 218) ; 
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin-left: 20%;
+    background-color: rgb(246, 242, 242);
 }
 
-.card .img {
-    width: 50%;
-    height: 50%;
+.card-image {
+    width: 32.4vh;
+    height: 30vh;
 }
 
 .abs {
