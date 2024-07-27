@@ -3,6 +3,7 @@
     width: fit-content;
     padding: 20px;
     background-color: rgb(246, 242, 242);
+    border-radius: 5px;
 }
 
 .card-image {
@@ -11,15 +12,21 @@
 }
 
 .abs {
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 90%;
+    margin-left: -20px;
+    margin-top: 24px;
     background-color: black;
     color: white;
     font-size: 12.5px;
+    border-radius: 5px;
 }
 
 .add-to-cart {
-    height: 7vh;
-    
+    height: 7vh;  
 }
 
+
+.desc .span {
+    background-color: red;
+}
