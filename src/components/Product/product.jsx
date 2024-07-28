@@ -1,14 +1,14 @@
 import React from 'react'
 import './product.css'
 
-function Product() {
+function Product({redText,blackText}) {
   return (
     <div className="logo1">
     <div className="today">
     <div className="abd"></div>
-    <h3>Today's</h3>
+    <h3>{redText}</h3>
     </div>
-       <h1>Flash Sales</h1>
+       <h1>{blackText}</h1>
     </div>
   )
 }

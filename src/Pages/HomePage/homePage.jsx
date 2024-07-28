@@ -7,6 +7,8 @@ import Main from '../../components/Main/main';
 import Product from '../../components/Product/product';
 import Card from '../../components/Card/card';
 import Data from '../../Data/carddata';
+import Browsecard from '../../components/Browsecard/browsecard';
+import Category from '../../Data/cardcategory';
 
 function HomePage() {
   return (
@@ -20,7 +22,10 @@ function HomePage() {
       <Main />
       </div>
       <div className="product">
-        <Product />
+        <Product 
+          redText="Today's"
+          blackText="Flash Sales"
+        />
       </div>
       <div className="card">
       {
@@ -31,6 +36,26 @@ function HomePage() {
             title={title}
             price={price}
             discount={discount}
+          />)
+        }
+      )}
+      </div>
+      <div className="medium">
+        <button className="bds">View All Products</button>
+      </div>
+      <div className="product">
+        <Product 
+          redText="Categories"
+          blackText="Browse By Category"
+        />
+      </div>
+      <div className="browse">
+      {
+        Category.map( ({id, imgSrc, title})=>{
+          return (<Browsecard
+            id = {id}
+            imgSrc={imgSrc}
+            title={title}
           />)
         }
       )}

@@ -26,7 +26,10 @@
     height: 7vh;  
 }
 
+span {
+    color: #DB4444;
+}
 
-.desc .span {
-    background-color: red;
+.star {
+    color: #FFAD33;
 }
